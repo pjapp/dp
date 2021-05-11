@@ -418,7 +418,7 @@ const SimpleCore = {
         $(document).on('click', '.btn-thumbs-up', function (e) {
             e.preventDefault();
             if (SimpleCore.donateImg != '') {
-                SimpleCore.alert('随意打赏，谢谢！','<img style="width:180px;background:#fff;" src="' + SimpleCore.donateImg + '">');
+                SimpleCore.alert('-欢迎成为本站会员-','<img style="width:180px;background:#fff;" src="' + SimpleCore.donateImg + '">');
             } else {
                 SimpleCore.alert('未开通赞赏功能','<h4 style="text-align: center;margin: 0">联系博主试试看 ：）</h4>');
             }
